@@ -23,6 +23,8 @@ class Grupo:
             lista = []
         lista.append(alumno)
         
+        self.listadoAlumnos = self.listadoAlumnos + lista
+        
         
     def __str__(self):
         return f'Grupo de estudiantes:" {self._grupo}'
